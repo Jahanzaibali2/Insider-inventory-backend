@@ -2,14 +2,19 @@
   "name": "inventory-backend",
   "version": "1.0.0",
   "description": "Backend for inventory website",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "chalo": "node index.js"
   },
   "author": "Jahanzaib Ali",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.21.1",
-    "mongoose": "^8.8.3"
+    "mongoose": "^8.8.3",
+    "nodemon": "^3.1.7"
   }
 }
